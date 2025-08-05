@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Adobe Portfolio Replica</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        background-color: #fff;
+        color: #333;
+    }
+
+    /* Header */
+    .header {
+        border-bottom: 1px solid #ddd;
+        padding: 20px 40px;
+        background-color: white;
+    }
+    .logo {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 22px;
+        font-weight: bold;
+        margin-right: 50px;
+        color: #111;
+    }
+    .nav {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .nav a {
+        display: inline-block;
+        margin: 0 15px;
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+    }
+    .nav a:hover {
+        color: #0073e6;
+    }
+    .header-buttons {
+        float: right;
+    }
+    .header-buttons a {
+        display: inline-block;
+        margin-left: 15px;
+        padding: 8px 16px;
+        border: 1px solid #0073e6;
+        text-decoration: none;
+        color: #0073e6;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+    .header-buttons a.start {
+        background-color: #0073e6;
+        color: white;
+    }
+
+    /* Hero section */
+    .hero {
+        height: 500px;
+        background: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1600&q=80') no-repeat center/cover;
+        padding: 180px 20px;
+        text-align: center;
+        color: white;
+        box-sizing: border-box;
+    }
+    .hero h1 {
+        margin: 0;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .hero p {
+        margin-top: 15px;
+        font-size: 20px;
+        color: #f0f0f0;
+    }
+
+    /* Intro section */
+    .intro {
+        padding: 60px 20px;
+        text-align: center;
+        background-color: white;
+    }
+    .intro h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .intro p {
+        font-size: 16px;
+        color: #666;
+        max-width: 600px;
+        margin: 0 auto 30px;
+    }
+    .intro a {
+        padding: 10px 20px;
+        border: 1px solid #0073e6;
+        color: #0073e6;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+    .intro a:hover {
+        background-color: #0073e6;
+        color: white;
+    }
+
+    /* Portfolio section */
+    .portfolio {
+        padding: 50px 5%;
+        text-align: center;
+        background-color: #f9f9f9;
+    }
+    .portfolio-item {
+        width: 45%;
+        height: 300px;
+        margin: 2%;
+        display: inline-block;
+        vertical-align: top;
+        background-color: #eee;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+    .portfolio-item:hover {
+        transform: scale(1.03);
+    }
+
+    /* Footer */
+    .footer {
+        border-top: 1px solid #ccc;
+        padding: 30px;
+        background-color: white;
+        font-size: 14px;
+        text-align: center;
+        color: #555;
+    }
+    .footer-links {
+        margin-bottom: 15px;
+    }
+    .footer-links a {
+        margin: 0 10px;
+        color: #555;
+        text-decoration: none;
+    }
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <div class="logo">Adobe Portfolio</div>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="header-buttons">
+        <a href="#">Log in</a>
+        <a href="#" class="start">Get Started</a>
+    </div>
+</div>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>Showcase Your Work</h1>
+    <p>Create a beautiful portfolio in minutes</p>
+</div>
+
+<!-- Intro -->
+<div class="intro">
+    <h2>Create your own portfolio website</h2>
+    <p>Adobe Portfolio makes it easy to quickly build a professional-looking website to showcase your creative work. Choose from beautifully designed themes and customize them to match your style.</p>
+    <a href="#">Start Now</a>
+</div>
+
+<!-- Portfolio Grid -->
+<div class="portfolio">
+    <div class="portfolio-item" style="background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80');"></div>
+    <div class="portfolio-item" style="background-image: url('https://images.unsplash.com/photo-1481277542470-605612bd2d61?auto=format&fit=crop&w=800&q=80');"></div>
+    <div class="portfolio-item" style="background-image: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80');"></div>
+    <div class="portfolio-item" style="background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80');"></div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="footer-links">
+        <a href="#">Terms of Use</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Help</a>
+    </div>
+    &copy; 2025 Your Name. All rights reserved.
+</div>
+
+</body>
+</html>
